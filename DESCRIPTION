@@ -40,8 +40,5 @@ Imports:
     broom,
     tidyr,
     discrim
-    
-    
-    
-
-
+URL: https://github.com/AGD99/OmmicFlowR
+BugReports: https://github.com/AGD99/OmmicFlowR/issues
