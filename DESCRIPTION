@@ -1,0 +1,49 @@
+Package: OmicFlowR
+Title: Automated Machine Learning Pipeline for Omics Data Classification
+Version: 0.1.0.000
+Authors@R: 
+    person("Adrian", "Gutiérrez Domínguez", , "xagd99@gmail.com", role = c("aut", "cre"))
+Description: A modular and automated framework for supervised classification of 
+    omics data. Provides sequential functions for data preprocessing, feature 
+    selection (using multiple methods including information gain, Relief, Boruta, 
+    LASSO, and genetic algorithms), and model evaluation (k-Nearest Neighbors, 
+    Naive Bayes, SVM, Neural Networks, Decision Trees, and Random Forest) with 
+    cross-validation and parallel computing support..
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    dplyr,
+    recipes,
+    rsample,
+    future,
+    doFuture,
+    future.apply,
+    tictoc,
+    FSelector,
+    Boruta,
+    caret,
+    glmnet,
+    ggvenn,
+    ggplot2,
+    RColorBrewer,
+    yardstick,
+    tune,
+    workflows,
+    parsnip,
+    kknn,
+    naivebayes,
+    kernlab,
+    nnet,
+    rpart,
+    ranger,
+    purrr,
+    tibble,
+    rlang,
+    broom,
+    tidyr,
+    discrim
+URL: https://github.com/AGD99/OmmicFlowR
+BugReports: https://github.com/AGD99/OmmicFlowR/issues
