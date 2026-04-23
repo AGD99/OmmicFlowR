@@ -1,14 +1,9 @@
-Package: OmicFlowR
-Title: Automated Machine Learning Pipeline for Omics Data Classification
-Version: 0.1.0.000
+Package: OmmicFlowR
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
 Authors@R: 
-    person("Adrian", "Gutiérrez Domínguez", , "xagd99@gmail.com", role = c("aut", "cre"))
-Description: A modular and automated framework for supervised classification of 
-    omics data. Provides sequential functions for data preprocessing, feature 
-    selection (using multiple methods including information gain, Relief, Boruta, 
-    LASSO, and genetic algorithms), and model evaluation (k-Nearest Neighbors, 
-    Naive Bayes, SVM, Neural Networks, Decision Trees, and Random Forest) with 
-    cross-validation and parallel computing support..
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
